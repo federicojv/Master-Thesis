@@ -28,10 +28,11 @@ pip install -r requirements.txt
 ```
 
 ## Running instructions
-After all dependecies have been installed, run the [main.py](https://github.com/federicojv/Master_Thesis/main.py) script from command line with 
+After all dependecies have been installed, run the [main.py](https://github.com/federicojv/Master-Thesis/blob/main/main.py) script from command line with 
 ```
 python3 main.py
 ```
 This script relies the datasets folder to retrieve part of the used datasets. The rest of the datasets are downloaded from online sources. The raw output is saved in the results folder in the form of csv files, one per dataset plus an additional one called total, containing all the results .  
-The graphs to better visualize the results can be created from the [analyse_results.ipynb](https://github.com/federicojv/Master_Thesis/analyse_results.ipynb) notebook.  
+The graphs to better visualize the results can be created from the [analyse_results.ipynb](https://github.com/federicojv/Master-Thesis/blob/main/analyse_results.ipynb) notebook.  
 Due to the many embedding performed, the code took a total of 165 hours running on a Windows machine with an AMD Ryzen 5 1400 and 16 GBs of RAM.
+
